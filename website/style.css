@@ -3,10 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+<<<<<<< HEAD
 }
 
 body {
     background-color: #f4f4f4;
+=======
+    
+}
+body {
+    background-color: #fff;
+>>>>>>> 226e5c8 (comment)
     color: #333;
     line-height: 1.6;
 }
@@ -24,9 +31,24 @@ header nav {
     padding: 0 20px;
 }
 
+<<<<<<< HEAD
 header .logo h1 {
     font-size: 28px;
     letter-spacing: 2px;
+=======
+header img{
+    float: left;
+    margin-right: 20px;
+}
+
+header .logo h1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+
+>>>>>>> 226e5c8 (comment)
 }
 
 header .nav-links {
@@ -46,14 +68,25 @@ header .nav-links li a {
 
 #hero {
     background: url('https://via.placeholder.com/1600x800') center/cover no-repeat;
+<<<<<<< HEAD
     color: #fff;
+=======
+    color: white;
+>>>>>>> 226e5c8 (comment)
     text-align: center;
     padding: 100px 20px;
 }
 
 #hero .hero-content h2 {
+<<<<<<< HEAD
     font-size: 50px;
     margin-bottom: 20px;
+=======
+    font-style: italic;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+>>>>>>> 226e5c8 (comment)
     color: black;
 }
 
@@ -80,6 +113,10 @@ header .nav-links li a {
 #shop h2 {
     font-size: 40px;
     margin-bottom: 30px;
+<<<<<<< HEAD
+=======
+    margin-top: -60px;
+>>>>>>> 226e5c8 (comment)
 }
 
 .products {
@@ -93,7 +130,11 @@ header .nav-links li a {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
+<<<<<<< HEAD
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+=======
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+>>>>>>> 226e5c8 (comment)
     width: 300px;
     text-align: center;
 }
@@ -160,3 +201,134 @@ footer .social-media a {
 footer p {
     font-size: 14px;
 }
+<<<<<<< HEAD
+=======
+
+/* For screens for 768px */
+@media (max-width: 768px) {
+    header .logo h1 {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    header .nav-links li {
+        font-size: 15px;
+        margin-left: 15px;
+        margin-bottom: 6px;
+    }
+
+    #hero .hero-content h2 {
+        font-size: 40px;
+    }
+
+    #hero .hero-content p {
+        font-size: 18px;
+    }
+
+    #shop h2 {
+        font-size: 35px;
+    }
+
+    .product {
+        width: 45%;
+        margin: 10px;
+    }
+
+    #about h2 {
+        font-size: 30px;
+    }
+
+    #about p {
+        font-size: 16px;
+    }
+}
+
+/* For screens between 479px and 600px */
+@media (min-width: 479px) and (max-width: 600px){
+    header .logo h1{
+        font-size: 17px;
+        margin-top: 10px;
+        padding-left: 0;
+    }
+    
+    header img{
+        width: 50px;
+        height: 50px;
+    }
+
+    header .nav-links li{
+        font-size: 12px;
+        margin-top: 4px;
+    }
+}
+
+/* For screens for 479px */
+@media (max-width: 479px) {
+    header nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header img{
+        width: 55px;
+        height: 55px;
+    }
+
+    header .logo h1 {
+        font-size: 15px;
+        margin-top: 14px;
+    }
+
+    header .nav-links {
+        flex-direction: row;
+        margin-top: 10px;
+    }
+
+    header .nav-links li {
+        padding-right: 16px;
+        font-size: 13px;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 14px;
+    }
+
+    #hero {
+        padding: 60px 20px;
+    }
+
+    #hero .hero-content h2 {
+        font-size: 25px;
+    }
+
+    #hero .hero-content p {
+        font-size: 14px;
+    }
+
+    #shop h2 {
+        font-size: 24px;
+    }
+
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product {
+        width: 70%;
+        margin: 10px 0;
+    }
+
+    #about h2 {
+        font-size: 25px;
+    }
+
+    #about p {
+        font-size: 14px;
+    }
+
+    footer .social-media a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+>>>>>>> 226e5c8 (comment)

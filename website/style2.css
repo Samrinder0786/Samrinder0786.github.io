@@ -87,3 +87,64 @@ footer {
     bottom: 0;
 }
 
+<<<<<<< HEAD
+=======
+/* For screens up to 768px */
+@media (max-width: 768px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        width: 905px;
+        height: 100px;
+    }
+
+    header .logo h1 {
+        margin: 20px;
+        align-self: center;
+    }
+    .category{
+        width: 800px;
+    }
+
+    nav ul {
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        align-self: center;
+        margin-right: 10px;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    .product {
+        flex: 1 1 calc(50% - 40px); /* Two products per row */
+        max-width: calc(50% - 40px);
+    }
+    footer{
+        width: 860px;
+    }
+}
+
+/* For screens up to 479px */
+@media (max-width: 479px) {
+    .product {
+        flex: 1 1 100%; /* One product per row */
+        max-width: 100%;
+    }
+
+    .category {
+        padding: 15px;
+        margin: 35px;
+    }
+
+    .product img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+}
+>>>>>>> 226e5c8 (comment)

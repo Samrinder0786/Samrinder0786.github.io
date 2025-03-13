@@ -58,3 +58,65 @@ button:hover {
 .tracking {
     text-align: center;
 }
+<<<<<<< HEAD
+=======
+
+/* Media Query for 768px */
+@media screen and (max-width: 768px) {
+    section {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    table, th, td {
+        padding: 8px;
+    }
+
+    button {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Media Query for 479px */
+@media screen and (max-width: 479px) {
+    section {
+        width: 95%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    table, th, td {
+        padding: 6px;
+        font-size: 0.9rem;
+    }
+
+    button {
+        padding: 6px;
+        font-size: 0.8rem;
+    }
+
+    .progress-bar {
+        height: 8px;
+    }
+
+    .progress {
+        height: 8px;
+    }
+}
+>>>>>>> 226e5c8 (comment)
