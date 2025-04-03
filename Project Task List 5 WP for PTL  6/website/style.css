@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header img{
+    float: left;
+    margin-right: 20px;
+}
+
+header .logo h1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+header .nav-links li {
+    margin-left: 20px;
+}
+
+header .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    background: url('https://via.placeholder.com/1600x800') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero .hero-content h2 {
+    font-style: italic;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    color: black;
+}
+
+#hero .hero-content p {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+#hero .btn {
+    background-color: #f46b4f;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#shop {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#shop h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: -60px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    width: 300px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product h3 {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.product p {
+    color: #f46b4f;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.product .btn {
+    background-color: #f46b4f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#about {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social-media {
+    margin-bottom: 10px;
+}
+
+footer .social-media a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* For screens for 768px */
+@media (max-width: 768px) {
+    header .logo h1 {
+        font-size: 18px;
+        margin-top: 23px;
+    }
+
+    header .nav-links li {
+        font-size: 12px;
+        margin-left: 12px;
+        margin-bottom: 2px;
+        margin-top: -3px;
+    }
+
+    #hero .hero-content h2 {
+        font-size: 40px;
+    }
+
+    #hero .hero-content p {
+        font-size: 18px;
+    }
+
+    #shop h2 {
+        font-size: 35px;
+    }
+
+    .product {
+        width: 45%;
+        margin: 10px;
+    }
+
+    #about h2 {
+        font-size: 30px;
+    }
+
+    #about p {
+        font-size: 16px;
+    }
+}
+
+/* For screens between 478px and 680px */
+@media (min-width: 478px) and (max-width: 680px){
+    header .logo h1{
+        font-size: 18px;
+        margin-top: 10px;
+        padding-left: 0;
+    }
+    
+    header img{
+        width: 50px;
+        height: 50px;
+    }
+
+    header .nav-links li{
+        font-size: 13px;
+        margin-top: 20px;
+        margin-left: 4px;
+        padding: 7px;
+    }
+
+    header nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* For screens for 479px */
+@media (max-width: 479px) {
+    header nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header img{
+        width: 55px;
+        height: 55px;
+    }
+
+    header .logo h1 {
+        font-size: 12px;
+        margin-top: 16px;
+    }
+
+    header .nav-links {
+        flex-direction: row;
+        margin-top: 10px;
+    }
+
+    header .nav-links li {
+        padding-right: 14px;
+        font-size: 10px;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 14px;
+        margin-right: 2px;
+    }
+
+    #hero {
+        padding: 60px 20px;
+    }
+
+    #hero .hero-content h2 {
+        font-size: 25px;
+    }
+
+    #hero .hero-content p {
+        font-size: 14px;
+    }
+
+    #shop h2 {
+        font-size: 24px;
+    }
+
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product {
+        width: 70%;
+        margin: 10px 0;
+    }
+
+    #about h2 {
+        font-size: 25px;
+    }
+
+    #about p {
+        font-size: 14px;
+    }
+
+    footer .social-media a {
+        display: block;
+        margin: 10px 0;
+    }
+}
