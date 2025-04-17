@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Customer Reviews</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="style5.css" />
+</head>
+<body>
+  <header>
+    <h1>Our Reviews</h1>
+  </header>
+
+  <section class="reviews-section">
+    <h2>What Our Customers Say</h2>
+    <div class="review-container">
+      <div class="review-card">
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>"Absolutely love the quality! The leather jacket I purchased is fantastic and fits perfectly."</p>
+        <h4>- Olivia Johnson</h4>
+        <small>Posted on: Jan 15, 2025</small>
+      </div>
+      
+      <div class="review-card">
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>"Great service and quick delivery. The hoodie is super comfortable and stylish. Will shop again!"</p>
+        <h4>- Virat Kohli</h4>
+        <small>Posted on: Feb 28, 2025</small>
+      </div>
+      
+      <div class="review-card">
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <p>"FashionClothing never disappoints. The denim jeans are of premium quality and the price is worth it!"</p>
+        <h4>- Mark Waugh</h4>
+        <small>Posted on: March 2, 2025</small>
+      </div>
+    </div>
+  </section>
+
+  <section class="leave-review">
+    <h2>Leave Your Review</h2>
+    <form id="reviewForm">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="rating">Rating:</label>
+      <div class="star-rating">
+        <i class="far fa-star" data-rating="1"></i>
+        <i class="far fa-star" data-rating="2"></i>
+        <i class="far fa-star" data-rating="3"></i>
+        <i class="far fa-star" data-rating="4"></i>
+        <i class="far fa-star" data-rating="5"></i>
+      </div>
+      <input type="hidden" id="rating" name="rating" value="0">
+
+      <label for="review">Your Review:</label>
+      <textarea id="review" name="review" rows="4" maxlength="300" required></textarea>
+      <div class="char-counter"><span id="charCount">0</span>/300</div>
+
+      <button type="submit">Submit Review</button>
+    </form>
+  </section>
+
+  <div class="confirmation-popup" id="confirmationPopup">
+    <p>Thank you for your review! ❤️</p>
+    <button onclick="closePopup()">Close</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 FashionClothing. All rights reserved.</p>
+  </footer>
+
+  <script src="javascript.js"></script>
+</body>
+</html>
