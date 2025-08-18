@@ -120,6 +120,7 @@ body {
   font-size: 0.8rem;
   color: #718096;
 }
+<<<<<<< HEAD
 
 /* Cards & utilities */
 .card { background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.06); border: 1px solid #eee; }
@@ -150,3 +151,5 @@ body.dark .tag { background: #334155; color: #e2e8f0; }
 body.dark .profile-header {
   color: var(--text-primary-dark);
 }
+=======
+>>>>>>> c7f48afe7af64966b24a12ecf580105f61b8f7b9

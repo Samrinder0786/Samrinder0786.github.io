@@ -5,10 +5,13 @@ export default function Home() {
   return (
     <div className="home-container">
       <h1 className="main-title">Welcome to CodeHive</h1>
+<<<<<<< HEAD
 
       <h3>A collaborative platform where developers share code snippets, 
           exchange knowledge, and discuss the latest in technology.
 </h3>
+=======
+>>>>>>> c7f48afe7af64966b24a12ecf580105f61b8f7b9
       
       <div className="features-grid">
         <Link href="/snippets" className="feature-card">
